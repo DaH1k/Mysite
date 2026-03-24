@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Dev | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-slate-900 text-white min-h-screen font-sans overflow-x-hidden">
+
+    <main class="max-w-4xl mx-auto px-6 py-20">
+        
+        <header class="text-center mb-16 reveal">
+            <div class="profile-icon-it pulse-animation">IT</div>
+            <h1 class="text-5xl font-black tracking-tighter mt-6">Frontend Developer</h1>
+            <p class="text-indigo-400 text-xl font-light uppercase mt-2">IT Specialist & Creator</p>
+        </header>
+
+        <section class="grid md:grid-cols-2 gap-8 mb-16">
+            <div class="glass-card p-8 reveal reveal-delay-1">
+                <h2 class="text-2xl font-bold mb-4 text-indigo-300">About Me</h2>
+                <p class="text-slate-400 leading-relaxed">Expert in building responsive interfaces and interactive web experiences with a focus on performance and clean logic.</p>
+            </div>
+            <div class="glass-card p-8 reveal reveal-delay-2">
+                <h2 class="text-2xl font-bold mb-4 text-indigo-300">Stack</h2>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-tag">JavaScript ES6</span>
+                    <span class="skill-tag">Tailwind CSS</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">SQL Server</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16 reveal">
+            <div class="glass-card overflow-hidden p-6 md:p-8 grid md:grid-cols-12 gap-8 items-center">
+                <div class="md:col-span-5 aspect-video md:aspect-square bg-slate-800 rounded-2xl overflow-hidden border border-white/10 group">
+                    <img src="https://img.youtube.com/vi/xio7FlQnkTk/maxresdefault.jpg" 
+                         alt="Project Showcase" 
+                         class="w-full h-full object-cover rounded-2xl group-hover:scale-105 transition-transform duration-700 ease-in-out">
+                </div>
+                <div class="md:col-span-7 space-y-4">
+                    <h2 class="text-3xl font-black text-indigo-100 tracking-tighter">My Automotive Database</h2>
+                    <p class="text-indigo-400 font-medium text-lg">Backend Logic & UI Showcase</p>
+                    <p class="text-slate-400 leading-relaxed">
+                        An ambitious project focusing on complex SQL queries and database architecture. 
+                        It visualizes car registries and insurance data using a clean, modern interface.
+                    </p>
+                    <div class="flex flex-wrap gap-2 pt-2">
+                        <span class="skill-tag text-xs">SQL Logic</span>
+                        <span class="skill-tag text-xs">Data Modeling</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reveal">
+            <div class="glass-card p-8 border-l-4 border-indigo-500">
+                <h2 class="text-2xl font-bold mb-4 text-indigo-300 italic">Education</h2>
+                <h3 class="text-xl font-bold text-white">Junior Computer Academy "IT Step"</h3>
+                <p class="text-slate-400 mt-2 leading-relaxed">
+                    Completed a comprehensive professional course focusing on modern technology, 
+                    web development, and IT foundations. It was here that I built my skills in structured coding.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="mt-20 pb-10 reveal">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="glass-card p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="text-center md:text-left">
+                    <p class="text-indigo-300 font-bold text-lg">Let's connect</p>
+                    <p class="text-slate-500 text-sm mt-1">Ready for new IT challenges 🚀</p>
+                </div>
+                <div class="flex items-center gap-6">
+                    <a href="https://instagram.com/mrdanylo09" target="_blank" class="social-link group">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="group-hover:stroke-pink-500 transition-colors">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="mailto:mrdanylo09@gmail.com" class="social-link group">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="group-hover:stroke-red-400 transition-colors">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/DaH1k" target="_blank" class="social-link group">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="group-hover:stroke-white transition-colors">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <p class="text-center text-slate-600 text-xs mt-8 uppercase tracking-widest">© 2026 Developed by You</p>
+        </div>
+    </footer>
+
+    <div id="bot-container" class="bot-fixed">
+        <div id="bot-bubble" class="bot-bubble hidden">Hi!</div>
+        <div class="bot-main">
+            <div class="bot-head">
+                <div class="bot-eye"></div>
+                <div class="bot-eye"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Myscript.js"></script>
+</body>
+</html>
